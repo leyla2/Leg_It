@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/PPR 10%.unity
+- path: Assets/Scenes/Damage Blood.unity
   isLoaded: 1
   isActive: 1
