@@ -25,7 +25,6 @@ public class Movement : MonoBehaviour {
 
     public GameObject spawnMe;
     public GameObject here;
-    public GameObject poop;
    
     void Start () {
 
