@@ -11,15 +11,22 @@ public class Health : MonoBehaviour {
     [SerializeField]
     Text healthValue;
 
+    public GameObject DeathUI;
+
     float maxHealth = 100f;
     float CurrentHealth;
 
-    private movement player;//allow to use the variables from the movement class.
+    Movement player;//allow to use the variables from the movement class.
     public GameObject BloodParticle;
     public GameObject RespawnParticle; //This will be moved once I have a respawn location
 
+    Animator anim;
 
     void Start () {
+        anim = GetComponent<Animator>();
+       
+
+        player = GetComponent<Movement>();
 
         HealthBar.value = maxHealth;
         CurrentHealth = HealthBar.value;
@@ -27,8 +34,11 @@ public class Health : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        
         healthValue.text = CurrentHealth.ToString() + "%";
-	}
+        Death();
+        
+    }
 
     
 
@@ -39,18 +49,42 @@ public class Health : MonoBehaviour {
             
             HealthBar.value -= 1f;
             CurrentHealth = HealthBar.value;
+            Instantiate(BloodParticle, gameObject.transform.position, gameObject.transform.rotation);//make a copy of bloodparticle in this position and rotation, of the player when it hits the game object. 
+
+        }
+        if (collision.gameObject.tag == "hell")
+        {
+
+            HealthBar.value -= 100f;
+            CurrentHealth = HealthBar.value;
+           
+        }
+
+        if (collision.gameObject.tag == "eagle")
+        {
+
+            HealthBar.value -= 5f;
+            CurrentHealth = HealthBar.value;
+            Instantiate(BloodParticle, gameObject.transform.position, gameObject.transform.rotation);//make a copy of bloodparticle in this position and rotation, of the player when it hits the game object. 
+
         }
     }
 
-    public void Death()
+    public void Death()// going to try and respawn location here
     {
-        if (CurrentHealth == 0)
+        if (CurrentHealth <= 0)
         {
 
-            Instantiate(BloodParticle, player.transform.position, player.transform.rotation);//make a copy of bloodparticle in this position and rotation, of the player's. 
-            player.transform.position = new Vector2(50, 0);
-        }
+            anim.SetBool("death", true);
+            GetComponent<Movement>().enabled = false;
+            
+            DeathUI.gameObject.SetActive(true);
 
+           // Instantiate(BloodParticle, player.transform.position, player.transform.rotation);//make a copy of bloodparticle in this position and rotation, of the player's. 
+
+           // player.transform.position = new Vector2(50, 0);
+        }
+       
     }
 
 }
