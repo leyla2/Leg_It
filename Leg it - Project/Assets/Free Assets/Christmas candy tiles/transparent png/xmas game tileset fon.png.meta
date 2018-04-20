@@ -3,7 +3,39 @@ guid: 3aa99ff9b9320d8428248319c5d8ee15
 timeCreated: 1523891956
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: xmas game tileset fon_0
+    21300002: xmas game tileset fon_1
+    21300004: xmas game tileset fon_2
+    21300006: xmas game tileset fon_3
+    21300008: xmas game tileset fon_4
+    21300010: xmas game tileset fon_5
+    21300012: xmas game tileset fon_6
+    21300014: xmas game tileset fon_7
+    21300016: xmas game tileset fon_8
+    21300018: xmas game tileset fon_9
+    21300020: xmas game tileset fon_10
+    21300022: xmas game tileset fon_11
+    21300024: xmas game tileset fon_12
+    21300026: xmas game tileset fon_13
+    21300028: xmas game tileset fon_14
+    21300030: xmas game tileset fon_15
+    21300032: xmas game tileset fon_16
+    21300034: xmas game tileset fon_17
+    21300036: xmas game tileset fon_18
+    21300038: xmas game tileset fon_19
+    21300040: xmas game tileset fon_20
+    21300042: xmas game tileset fon_21
+    21300044: xmas game tileset fon_22
+    21300046: xmas game tileset fon_23
+    21300048: xmas game tileset fon_24
+    21300050: xmas game tileset fon_25
+    21300052: xmas game tileset fon_26
+    21300054: xmas game tileset fon_27
+    21300056: xmas game tileset fon_28
+    21300058: xmas game tileset fon_29
+    21300060: xmas game tileset fon_30
+    21300062: xmas game tileset fon_31
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -40,7 +72,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -65,9 +97,468 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: xmas game tileset fon_0
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 1984
+        width: 2037
+        height: 921
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_1
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 2702
+        width: 142
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_2
+      rect:
+        serializedVersion: 2
+        x: 2014
+        y: 2695
+        width: 142
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_3
+      rect:
+        serializedVersion: 2
+        x: 2946
+        y: 2657
+        width: 175
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_4
+      rect:
+        serializedVersion: 2
+        x: 3160
+        y: 2681
+        width: 97
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_5
+      rect:
+        serializedVersion: 2
+        x: 3258
+        y: 2716
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_6
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 2576
+        width: 188
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_7
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 2645
+        width: 26
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_8
+      rect:
+        serializedVersion: 2
+        x: 1784
+        y: 2569
+        width: 188
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_9
+      rect:
+        serializedVersion: 2
+        x: 4231
+        y: 2602
+        width: 98
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_10
+      rect:
+        serializedVersion: 2
+        x: 4421
+        y: 2602
+        width: 169
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_11
+      rect:
+        serializedVersion: 2
+        x: 3414
+        y: 2398
+        width: 142
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_12
+      rect:
+        serializedVersion: 2
+        x: 3468
+        y: 2566
+        width: 24
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_13
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 1872
+        width: 542
+        height: 363
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_14
+      rect:
+        serializedVersion: 2
+        x: 3328
+        y: 2077
+        width: 45
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_15
+      rect:
+        serializedVersion: 2
+        x: 3720
+        y: 2121
+        width: 991
+        height: 364
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_16
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 1867
+        width: 96
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_17
+      rect:
+        serializedVersion: 2
+        x: 624
+        y: 1901
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_18
+      rect:
+        serializedVersion: 2
+        x: 1738
+        y: 1820
+        width: 167
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_19
+      rect:
+        serializedVersion: 2
+        x: 2936
+        y: 1856
+        width: 126
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_20
+      rect:
+        serializedVersion: 2
+        x: 3107
+        y: 1734
+        width: 521
+        height: 380
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_21
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 1734
+        width: 176
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_22
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 1722
+        width: 97
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_23
+      rect:
+        serializedVersion: 2
+        x: 4593
+        y: 1769
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_24
+      rect:
+        serializedVersion: 2
+        x: 170
+        y: 1118
+        width: 2041
+        height: 478
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_25
+      rect:
+        serializedVersion: 2
+        x: 3045
+        y: 1363
+        width: 143
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_26
+      rect:
+        serializedVersion: 2
+        x: 4516
+        y: 1356
+        width: 145
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_27
+      rect:
+        serializedVersion: 2
+        x: 2634
+        y: 631
+        width: 2087
+        height: 682
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_28
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1235
+        width: 194
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_29
+      rect:
+        serializedVersion: 2
+        x: 2943
+        y: 1306
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_30
+      rect:
+        serializedVersion: 2
+        x: 4280
+        y: 1228
+        width: 194
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: xmas game tileset fon_31
+      rect:
+        serializedVersion: 2
+        x: 4414
+        y: 1299
+        width: 29
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
     outline: []
     physicsShape: []
   spritePackingTag: 
