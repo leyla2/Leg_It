@@ -10,6 +10,12 @@ TagManager:
   - cherry
   - eagle
   - hell
+  - NextLevel
+  - Snow
+  - Frozen
+  - Health
+  - shootable
+  - bullet
   layers:
   - Default
   - TransparentFX
