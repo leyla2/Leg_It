@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class destroyShootable : MonoBehaviour {
 
+    public GameObject snowEffect;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -19,6 +21,7 @@ public class destroyShootable : MonoBehaviour {
         if (other.tag == "bullet")
         {
             Destroy(gameObject);
+            Instantiate(snowEffect, transform.position, transform.rotation);
         }
 
         

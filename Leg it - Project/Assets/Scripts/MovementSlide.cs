@@ -51,7 +51,7 @@ public class MovementSlide : MonoBehaviour {
 
         grounded = Physics2D.IsTouchingLayers(myCol, floorLocator); //if these two are touching, grounded = true
 
-        grounded = Physics2D.OverlapCircle(groundChecker.position, groundRadius, floorLocator);
+        //grounded = Physics2D.OverlapCircle(groundChecker.position, groundRadius, floorLocator);
 
 
         if (transform.position.x > speedIncreaseNow)

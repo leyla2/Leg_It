@@ -94,6 +94,18 @@ public class Health : MonoBehaviour {
 
             return;
         CurrentHealth -= damage;
+        
+
+    }
+
+    public void HealthIncrease(float health)
+    {
+        CurrentHealth = CurrentHealth + health;
+        if(CurrentHealth > maxHealth)
+        {
+            CurrentHealth = maxHealth;
+        }
+       
 
 
     }
