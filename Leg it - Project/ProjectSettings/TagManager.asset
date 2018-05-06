@@ -16,6 +16,9 @@ TagManager:
   - Health
   - shootable
   - bullet
+  - LightDamage
+  - HeavyDamage
+  - MediumDamage
   layers:
   - Default
   - TransparentFX

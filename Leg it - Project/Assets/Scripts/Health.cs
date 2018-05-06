@@ -2,19 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class Health : MonoBehaviour {
 
 
     [SerializeField]
-    Slider HealthBar;
+   Slider HealthBar;
     [SerializeField]
-    Text healthValue;
+   Text healthValue;
 
     public GameObject DeathUI;
 
-    float maxHealth = 100f;
-    float CurrentHealth;
+    static float maxHealth = 100f; //i know this doesn't need to be static because it's always 100
+    static float CurrentHealth; // trying to make this static to allow scene to change and keep health unaffected.
 
     Movement player;//allow to use the variables from the movement class.
     public GameObject BloodParticle;
@@ -31,10 +32,23 @@ public class Health : MonoBehaviour {
 
         HealthBar.value = maxHealth;
         CurrentHealth = HealthBar.value;
-	}
-	
-	// Update is called once per frame
-	void Update () {
+
+
+
+
+    }
+
+    //void Awake()
+    //{
+
+    //        DontDestroyOnLoad(this.gameObject);
+      
+    //        Debug.Log("Awake: " + this.gameObject);
+        
+    //}
+
+    // Update is called once per frame
+    void Update () {
         
         healthValue.text = CurrentHealth.ToString() + "%";
         Death();
@@ -65,6 +79,33 @@ public class Health : MonoBehaviour {
         {
 
             HealthBar.value -= 5f;
+            CurrentHealth = HealthBar.value;
+            Instantiate(BloodParticle, gameObject.transform.position, gameObject.transform.rotation);//make a copy of bloodparticle in this position and rotation, of the player when it hits the game object. 
+
+        }
+
+        if (collision.gameObject.tag == "LightDamage")
+        {
+
+            HealthBar.value -= 0.3f;
+            CurrentHealth = HealthBar.value;
+            Instantiate(BloodParticle, gameObject.transform.position, gameObject.transform.rotation);//make a copy of bloodparticle in this position and rotation, of the player when it hits the game object. 
+
+        }
+
+        if (collision.gameObject.tag == "MediumDamage")
+        {
+
+            HealthBar.value -= 0.6f;
+            CurrentHealth = HealthBar.value;
+            Instantiate(BloodParticle, gameObject.transform.position, gameObject.transform.rotation);//make a copy of bloodparticle in this position and rotation, of the player when it hits the game object. 
+
+        }
+
+        if (collision.gameObject.tag == "HeavyDamage")
+        {
+
+            HealthBar.value -= 1f;
             CurrentHealth = HealthBar.value;
             Instantiate(BloodParticle, gameObject.transform.position, gameObject.transform.rotation);//make a copy of bloodparticle in this position and rotation, of the player when it hits the game object. 
 

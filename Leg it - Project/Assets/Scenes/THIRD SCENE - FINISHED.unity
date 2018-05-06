@@ -30663,6 +30663,21 @@ Prefab:
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 233096393404406658, guid: 5c5d1348a34289946b88c34e938f0851,
+        type: 2}
+      propertyPath: m_ConnectedAnchor.x
+      value: 2060.0981
+      objectReference: {fileID: 0}
+    - target: {fileID: 233096393404406658, guid: 5c5d1348a34289946b88c34e938f0851,
+        type: 2}
+      propertyPath: m_ConnectedAnchor.y
+      value: 15.832634
+      objectReference: {fileID: 0}
+    - target: {fileID: 233096393404406658, guid: 5c5d1348a34289946b88c34e938f0851,
+        type: 2}
+      propertyPath: m_AutoConfigureConnectedAnchor
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 5c5d1348a34289946b88c34e938f0851, type: 2}
   m_IsPrefabParent: 0

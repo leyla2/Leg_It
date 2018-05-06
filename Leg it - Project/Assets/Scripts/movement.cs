@@ -39,7 +39,7 @@ public class Movement : MonoBehaviour {
         anim.SetFloat("verticalSpeed", GetComponent<Rigidbody2D>().velocity.y);
         baseSpeed = Input.GetAxis("Horizontal");// sets basespeed to whatever the movement from keys are +1 or -1 on the axis'.
 
-        grounded = Physics2D.IsTouchingLayers(myCol, floorLocator); //if these two are touching, grounded = true
+        //grounded = Physics2D.IsTouchingLayers(myCol, floorLocator); //if these two are touching, grounded = true
 
         grounded = Physics2D.OverlapCircle(groundChecker.position, groundRadius, floorLocator);
 
