@@ -25,12 +25,15 @@ public class Movement : MonoBehaviour {
 
     public GameObject spawnMe;
     public GameObject here;
+
+    bool CanMove; 
    
     void Start () {
 
         myRigBod = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         myCol = GetComponent<Collider2D>(); //get animator component attached to the player
+        CanMove = true; 
     }
 
 
@@ -38,6 +41,16 @@ public class Movement : MonoBehaviour {
 
         anim.SetFloat("verticalSpeed", GetComponent<Rigidbody2D>().velocity.y);
         baseSpeed = Input.GetAxis("Horizontal");// sets basespeed to whatever the movement from keys are +1 or -1 on the axis'.
+
+        if (!CanMove)
+        {
+            baseSpeed = 0; 
+        }
+
+        if (CanMove)
+        {
+            baseSpeed = 1;
+        }
 
         //grounded = Physics2D.IsTouchingLayers(myCol, floorLocator); //if these two are touching, grounded = true
 
@@ -84,15 +97,25 @@ public class Movement : MonoBehaviour {
     {
         if(col.gameObject.tag == "jumpThrough")
         {
-
+            
             Instantiate(spawnMe, here.transform.position, here.transform.rotation);
+        }
+
+        if(col.gameObject.tag == "cherry")
+        {
+            print("baaaase");
+            baseSpeed = 0;
+            speed = 0;
         }
 
        
 
     }
 
-    
+    void OnTriggerStay2D(Collider2D col)
+    {
+        
+    }
 
     void OnTriggerExit2D()
     {

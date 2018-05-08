@@ -37,7 +37,7 @@ public class MovementSlide : MonoBehaviour {
 
         myRigBod = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
-        myCol = GetComponent<Collider2D>(); //get animator component attached to the player
+        myCol = GetComponent<Collider2D>(); 
     }
 
 

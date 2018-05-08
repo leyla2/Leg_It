@@ -18,6 +18,7 @@ public class Health : MonoBehaviour {
     static float CurrentHealth; // trying to make this static to allow scene to change and keep health unaffected.
 
     Movement player;//allow to use the variables from the movement class.
+    MovementSlide cowgirl;
     public GameObject BloodParticle;
     public GameObject RespawnParticle; //This will be moved once I have a respawn location
     //enemyMainController enemy;
@@ -32,6 +33,7 @@ public class Health : MonoBehaviour {
 
         HealthBar.value = maxHealth;
         CurrentHealth = HealthBar.value;
+        cowgirl = GetComponent<MovementSlide>();
 
 
 
@@ -118,8 +120,8 @@ public class Health : MonoBehaviour {
         {
 
             anim.SetBool("death", true);
-            //GetComponent<Movement>().enabled = false;
-           // GetComponent<MovementSlide>().enabled = false;
+            player.enabled = false;
+            cowgirl.enabled = false;
             DeathUI.gameObject.SetActive(true);
 
            // Instantiate(BloodParticle, player.transform.position, player.transform.rotation);//make a copy of bloodparticle in this position and rotation, of the player's. 
