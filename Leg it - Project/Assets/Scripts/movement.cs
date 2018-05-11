@@ -42,15 +42,15 @@ public class Movement : MonoBehaviour {
         anim.SetFloat("verticalSpeed", GetComponent<Rigidbody2D>().velocity.y);
         baseSpeed = Input.GetAxis("Horizontal");// sets basespeed to whatever the movement from keys are +1 or -1 on the axis'.
 
-        if (!CanMove)
-        {
-            baseSpeed = 0; 
-        }
+        //if (!CanMove)  was going to use this to freeze the player using a timer and adjusting speed to 0, found an easy alternative. 
+        //{
+        //    baseSpeed = 0; 
+        //}
 
-        if (CanMove)
-        {
-            baseSpeed = 1;
-        }
+        //if (CanMove)
+        //{
+        //    baseSpeed = 1;
+        //}
 
         //grounded = Physics2D.IsTouchingLayers(myCol, floorLocator); //if these two are touching, grounded = true
 

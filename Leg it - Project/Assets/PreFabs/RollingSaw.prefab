@@ -25,7 +25,7 @@ GameObject:
   - component: {fileID: 58869356497207482}
   m_Layer: 0
   m_Name: Saw
-  m_TagString: damager
+  m_TagString: LightDamage
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41,9 +41,10 @@ GameObject:
   - component: {fileID: 114838665900013374}
   - component: {fileID: 114977912738389776}
   - component: {fileID: 114950003510633710}
+  - component: {fileID: 61668951776784818}
   m_Layer: 0
   m_Name: RollingSaw
-  m_TagString: damager
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -55,7 +56,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1934572906565926}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 29.734901, y: 4.955818, z: 2.3424618}
+  m_LocalPosition: {x: 2172.7, y: 4.1, z: 1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4283585474549908}
@@ -69,7 +70,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1417786175821304}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -4.09, y: 5.1, z: -2.3424618}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4246059162365144}
@@ -90,6 +91,31 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 1.28
+--- !u!61 &61668951776784818
+BoxCollider2D:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1934572906565926}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -33.927002, y: -4.7198734}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 68.854004, y: 10.2455635}
+  m_EdgeRadius: 0
 --- !u!114 &114741399532188766
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -123,7 +149,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 375a16ca99fd60d4486f4f198ee45f3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DestroyPlatformsHere: {fileID: 0}
 --- !u!114 &114964015379731570
 MonoBehaviour:
   m_ObjectHideFlags: 1

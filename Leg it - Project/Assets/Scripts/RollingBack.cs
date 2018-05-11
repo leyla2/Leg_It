@@ -8,10 +8,11 @@ public class RollingBack : MonoBehaviour {
 	void Start () {
 		
 	}
-	
 
-	void Update () {
-      
+
+    void OnTriggerStay2D(Collider2D col) { 
+
+
         transform.Translate(-6f * Time.deltaTime, 0, 0);
        
     }

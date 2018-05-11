@@ -31336,6 +31336,7 @@ GameObject:
   - component: {fileID: 781929925}
   - component: {fileID: 781929927}
   - component: {fileID: 781929928}
+  - component: {fileID: 781929929}
   m_Layer: 8
   m_Name: button
   m_TagString: Untagged
@@ -31408,7 +31409,7 @@ BoxCollider2D:
   m_GameObject: {fileID: 781929924}
   m_Enabled: 1
   m_Density: 1
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 6200000, guid: 0b29d2e53b0d13a49b5f4ec021844f3c, type: 2}
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
@@ -31437,7 +31438,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.0065829754, y: 0.032847404}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -31448,8 +31449,22 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 2.92, y: 0.79}
+  m_Size: {x: 3.0119877, y: 0.8556949}
   m_EdgeRadius: 0
+--- !u!114 &781929929
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 781929924}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 250503ee5bb4ea14cab7757f24c4af12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  replacement: {fileID: 1924960316690654, guid: 44b8663267fd8c045a32acffede2db3b,
+    type: 2}
+  addXYZ: {x: 0, y: 1, z: 0}
 --- !u!1 &783125641
 GameObject:
   m_ObjectHideFlags: 0
@@ -50939,7 +50954,7 @@ CapsuleCollider2D:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1291660328}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Density: 1
   m_Material: {fileID: 6200000, guid: bdfb534f451e95f4595e5c6f1e53801e, type: 2}
   m_IsTrigger: 0

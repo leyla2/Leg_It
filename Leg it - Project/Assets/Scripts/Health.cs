@@ -40,10 +40,10 @@ public class Health : MonoBehaviour {
 
     }
 
-    //void Awake()
+    //void Awake() was trying to keep health the same on another scene load, didn't work. 
     //{
 
-    //        DontDestroyOnLoad(this.gameObject);
+    //        DontDestroyOnLoad(this.gameObject); 
       
     //        Debug.Log("Awake: " + this.gameObject);
         
